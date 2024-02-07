@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-	for (int i = 1; i <= 100; i++) {
+	for (unsigned char i = 1; i <= 100; i++) {
 		if (i % 3 != 0 && i % 5 != 0) {
-			printf("%d\n", i);
+			printf("%u\n", i);
 			continue;
 		}
 
