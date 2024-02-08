@@ -13,6 +13,6 @@ int main(void) {
 	for (; line[i] != 0; i++) {}
 	
 	for (; i > 0; i--) {
-		putchar(line[i]);
+		putchar(line[i - 1]);
 	}
 }
