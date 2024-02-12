@@ -1,5 +1,3 @@
-// Untested, written on Windows for Linux
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,4 +13,6 @@ int main(void) {
 	for (; i > 0; i--) {
 		putchar(line[i - 1]);
 	}
+
+	putchar('\n');
 }
