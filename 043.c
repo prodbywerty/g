@@ -149,7 +149,5 @@ int main(void) {
     }
     
     printf("%s\n", morse);
-    
     free(line);
-    return 0;
 }
